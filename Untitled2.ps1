@@ -23,9 +23,3 @@ if (Get-model "HP ProBook 470 G2")
         #start-process -FilePath $UpdateEXE -ArgumentList "-s -b" -Wait
     }
 }
-
-#ThinkPad X1 Carbon 4th
-#HP ProBook 470 G2
-
-
-#New-ItemProperty -Path HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce -Name "W10Upg" -Value "$SetupEXE $SetupEXEParam " | Out-Null
